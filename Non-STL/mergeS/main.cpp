@@ -37,7 +37,7 @@ if(low<high){
     mergeSort(arr,size,low,middle);
     mergeSort(arr,size,middle+1,high);
     merge(arr, size, low, middle, high);
-}
+            }
 }
 
 
