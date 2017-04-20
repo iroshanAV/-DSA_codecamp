@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <ctime>
 
-
 using namespace std;
 
 void display(int arr[],int size){
@@ -11,7 +10,6 @@ void display(int arr[],int size){
   }
   cout << endl;
 }
-
 
 void insertionSort(int arr[], int size){
  int j, temp;
